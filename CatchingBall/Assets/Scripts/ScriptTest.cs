@@ -11,9 +11,5 @@ public class ScriptTest : MonoBehaviour
         rb.velocity = transform.forward * 10f;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
