@@ -23,7 +23,6 @@ public class BallCollision : MonoBehaviour
             
         }
 
-
     }
 
     private void OnCollisionEnter(Collision collision)

@@ -56,7 +56,6 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/ScriptTest.cs" />
     <Compile Include="Assets/Scripts/ThrowBall.cs" />
     <Compile Include="Assets/Scripts/BallScript.cs" />
     <Compile Include="Assets/Scripts/BallCollision.cs" />

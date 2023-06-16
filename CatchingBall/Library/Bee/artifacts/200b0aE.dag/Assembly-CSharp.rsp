@@ -350,7 +350,6 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/BallCollision.cs"
 "Assets/Scripts/BallScript.cs"
-"Assets/Scripts/ScriptTest.cs"
 "Assets/Scripts/ThrowBall.cs"
 -langversion:9.0
 
