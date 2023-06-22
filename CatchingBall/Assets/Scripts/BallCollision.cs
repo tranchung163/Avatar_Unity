@@ -33,9 +33,9 @@ public class BallCollision : MonoBehaviour
     private void MoveToStartPosition()
     {
         float step = moveSpeed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, GameObject.Find("mixamorig:RightHandIndex1").transform.position, step);
+        transform.position = Vector3.MoveTowards(transform.position, GameObject.Find("mixamorig:RightHandMiddle1").transform.position, step);
 
-        if (transform.position == GameObject.Find("mixamorig:RightHandIndex1").transform.position)
+        if (transform.parent == GameObject.Find("mixamorig:RightHandMiddle1").transform.parent)
         {
             isReturning = false;
             ballRigidbody.velocity = Vector3.zero;

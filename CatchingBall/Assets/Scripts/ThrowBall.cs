@@ -48,9 +48,10 @@ public class ThrowBall : MonoBehaviour
     void catchBall()
     {
         Debug.Log("Catch the ball");
-        rightHand = GameObject.Find("mixamorig:RightHandIndex1").transform;
+        rightHand = GameObject.Find("mixamorig:RightHandMiddle1").transform;
         ballPrefab.GetComponent<Rigidbody>().useGravity = false;
         ballPrefab.GetComponent<Transform>().parent = rightHand.parent;
+        
         
     }
 }
